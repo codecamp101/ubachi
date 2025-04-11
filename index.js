@@ -23,7 +23,7 @@ eye.addEventListener('mouseup', () => {
 // this submits the password with the formsuii
 fm.addEventListener('submit', (e) => {
     e.preventDefault();//this will stop the page from reloading
-    const pd ='Emeka123';
+    const pd ='Iamokarun';
     if (pd === ipt.value) {
         user.remove()
         fm.remove()

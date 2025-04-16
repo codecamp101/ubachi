@@ -125,7 +125,7 @@ button {
     /* border: 1px solid red; */
     border-radius: 2em;
     padding-left: 2em;
-    background-color: #8b008b;
+    background-color: red;
     display: flex;
     align-items: center;
     letter-spacing: 3px;

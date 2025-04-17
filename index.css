@@ -129,6 +129,7 @@ output {
     background-repeat: no-repeat;
     background-position: top;
     background-size: 80%;
+    position: relative;
 }
 #panel.bgi {
    background-image: url(confetti.gif);
@@ -173,4 +174,20 @@ output {
     background-image: linear-gradient(to right, #e35 70% ,#333 0%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+#panel > a {
+    text-decoration: none;
+    color: #f3f3f3;
+    padding: 0.5em;
+    border-radius: 7px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin:1em;
+    /* background-color: #333; */
+    font-weight: 500;
+    transition: background-color 
+}
+#panel > a:hover {
+     background-color: #333;
 }

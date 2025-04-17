@@ -132,6 +132,10 @@
         margin:0 auto;
         /* border: 1px solid red; */
         padding: 3em 1em;
+        background-image: url(error_fawzi_mourad.gif);
+        background-repeat: no-repeat;
+        background-size: 30%;
+        background-position:right center ;
     }
     #checkBtn {
         /* border: 1px solid red; */
